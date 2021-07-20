@@ -7,32 +7,34 @@
     <title>Forms</title>
 </head>
 <body>
-    <form action="POST">
-        <label for="">Name</label>
-        <input type="text" placeholder="Enter Your Name"><br><br>
-        <label for="">lName</label>
-        <input type="text" placeholder="Enter Your Last Name"><br><br>
-        <label for="">Contact No</label>
-        <input type="number" placeholder="Enter Your Phone No"><br><br>
-        <label for="">Email</label>
-        <input type="email" placeholder="Enter Your Email"><br><br>
+    <form action="POST" novalidate>
+        <label for="">fName</label>
+        <input type="text" placeholder="First Name" size="20"  maxlength="30" required><br><br>
         <label for="">Password</label>
-        <input type="password" placeholder="Enter Your Password"><br><br>
-        <p>Gems</p><br>
-        <label for="pubg">pubg</label>
-        <input type="checkbox" name="pubg" id="pubg">
-        <label for="pubg">gta</label>
-        <input type="checkbox" name="pubg" id="pubg">
-        <label for="pubg">sniper</label>
-        <input type="checkbox" name="pubg" id="pubg"> <br><br>
-        <P>gender</P>
-        <label for="">Male</label>
-        <input type="radio" name="Male" id="">
-        <label for="">FeMale</label>
-        <input type="radio" name="Male" id="">
-        <input type="submit" value="Sign Up">
+        <input type="password" placeholder="Password" size="5"  maxlength="30" required><br><br>
+        <textarea name="" id="" cols="100" rows="10 " placeholder="Type Your Message"></textarea><br><br>
+        
+        <input type="checkbox" name="sp" value="on" id="">SP
+        <input type="checkbox" name="sp" value="on" id="">SP
+        <input type="checkbox" name="sp" value="off" id="">SP
+        <input type="checkbox" name="sp" value="on" id="">SP
+
+        <input type = "radio" name = "subject" value = "maths"> Maths
+        <input type = "radio" name = "subject" value = "physics"> Physics
 
 
+        <select name = "dropdown">
+            <option value = "Maths">Maths</option>
+            <option value = "Physics" selected>Physics</option>
+         </select>
+        
+        <select name="select" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select><br><br>
+
+
+        <input type="submit" value="submit">
 
     </form>
 </body>

@@ -1,0 +1,177 @@
+HTML COURSE CONTENT.
+------------------------------  
+Part-01-Structuring Documents for the Web.
+2)Session-02-WEB Structure.
+		<html>
+		 <head>
+		 <title>Popular Websites: Google</title>
+		 </head>
+		 <body>
+		 <h1>About Google</h1>
+				 </body>
+		</html>
+3)Tag and Elements.
+  Tag: HTML tags begin with the less-than
+  (<) character and end with greater-than (>).
+  These symbols are also called "angle brackets.
+  
+  Elements: A pair(Open and Closed) of tags and the content these include are known as an
+			element.
+			example:
+			   <p>hello how are you</p>
+ Core Elements: <html>, <head>, <title>, and <body>
+ 
+ Core  Attribute:
+  id
+  title
+  class
+  style
+  About DOCTYPEs:
+  The DOCTYPE (for DOCument TYPE) tells the browser what rules to follow
+       when showing the document to the user. These rules are called modes. 
+	   
+Session-04-Heading tag and paragraph tag
+  1)h1 to h6.
+  2)Creating Paragraphs Using the <p> Element
+  3)Creating Line Breaks Using the <br> Element
+  4)Creating Preformatted Text Using the <pre> Element
+Session-05-Understanding Block and Inline Element.
+			➤ Block-level elements
+			➤ Inline elements
+			The <div> Element
+			The <header> Element
+Session-06-HTML5 Element.
+			The <nav> Element
+			The <section> Element
+			The <hr> Element
+			The <footer> Element
+			The <address> Element
+Session-07-Working with Lis
+			➤ Unordered: Like lists of bullet points
+			➤ Ordered: Use a sequence of numbers or letters instead of bullet points
+			➤ Definition: Enable you to specify a term and its definition
+
+				Table 1-3: type Attribute Values
+				Keyword State Description
+				1 decimal Decimal number (default)
+				a lower-alpha Lowercase Latin alphabet
+				A upper-alpha Uppercase Latin alphabet
+				i lower-roman Lowercase Roman numerals
+				I upper-roman Uppercase Roman numerals
+Session-08-Nesting Lists.
+-------------------------------------------------------------------------------
+Part-02-Fine-tuning Your Text.
+Session-09- Fining Text
+	1)The <span> Element
+	2)The <b> Element
+	3)The <i> Element
+	4)The <time> Element
+	5)The <code> Element
+Session-10 Utilizing Text
+	1)The <sup> Element
+	2)The <sub> Element
+Session-11-Editing Text
+         ➤ The <ins>
+		 ➤ The <del>
+		 Comment
+		 
+		 
+Part-03 Linked and Navigation.
+Session-12-Linking 
+      1) Other Web Pages
+	  2)Link to self multiple page.
+	  3)Lint to same page using Section.
+	  Understanding Directories and Directory Structures
+Session-13-Understanding URLs
+			
+			1)Absolute:
+			An absolute URL contains everything you need to
+			uniquely identify a particular file on the Internet
+			2 Relative URLs
+				A relative URL indicates where 
+				the resource is in relation to the current page.
+			Same Directory
+			Subdirectory
+			Parent Directory
+			From the Root
+			Creating In-Page Links with the <a> Element
+			Creating a Source Anchor with the href Attribute
+			The target Attribute
+			--------------------------------------------------------------------
+Part-4-Images, Audio, and Video	
+Session-14-Image.		
+    1)Adding Images Using the <img> Element
+		The src Attribute
+		The alt Attribute
+		The height and width Attributes
+	2)Using Images as Links
+	3)Choosing the Right Image Format
+		➤ GIF: Graphics Interchange Format (pronounced either “gif” or “jif”)
+		➤ JPEG: Joint Photographic Experts Group (pronounced “jay-peg”)
+		➤ PNG: Portable Network Graphics (pronounced “pee-en-gee” or “ping”)
+Session-15-Video and Audio.
+		<video width="720" height="480" src="central.mp4">
+		poster preload autoplay  loop muted
+				controls 
+Part-5-Tables
+Sesson-16-Simple Table.
+1)Introducing Tables
+2)The <table> Element Creates a Table
+	➤ All the universal attributes
+	➤ Basic event attributes for scripting
+	1)The dir Attribute
+	2)The <tr> Element Contains Table Rows
+	3)The <td> and <th> Elements Represent Table Cells
+	4)The colspan Attribute
+	5)The headers Attribute
+	6)The rowspan Attribute
+	7)The scope Attribute
+Sesson-17-Creating a Basic Table
+	Adding a Caption to a Table
+	Grouping Sections of a Table
+	Spanning Columns Using the colspan Attribute
+	Spanning Rows Using the rowspan Attribute
+	Nested Tables
+	Accessible Tables
+	How to Linearize Tables
+	Using the id, scope, and headers Attributes
+	-------------------------------------------------------------------------
+Part-06-Forms
+Sesson-18-What You Will Learn in This Chapter
+	➤ How to create a form
+	➤ How to use different types of form controls
+	➤ What happens to the data a user enters
+	➤ How to make forms accessible
+	➤ How to structure the content of forms
+	
+Sesson-19-Introducing Form
+	Creating a Form with the <form> Element
+	1)The action Attribute
+	2)The method Attribute
+	3)The id Attribute
+	4)The name Attribute
+	5)The novalidate Attribute
+	6)The target Attribute
+	
+Sesson-20-Form Control
+	1)Single-Line Text Input Controls
+	2)Password Input Controls
+	3)Multiple-Line Text Input Controls
+	4)Check Boxes
+	5)Radio Buttons
+	
+Sesson-20-Select Boxes
+	1)The <select> Element
+	2)The <option> Element
+	3)Creating Scrolling Select Boxes
+	4)File Select Boxes
+	
+Sesson-21-New HTML5 Form Elements
+	1)0Track Completion of a Task with the New <progress> Element
+	2)Represent Scalar Measurement within a Range with the <meter> Element
+	3)Create an Autocomplete List with an <input> and the New <datalist> Element
+	
+	
+	
+	
+	
